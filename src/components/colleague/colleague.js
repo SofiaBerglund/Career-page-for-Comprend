@@ -4,6 +4,7 @@ import "./colleague.css"
 export default class Colleague extends React.Component {
 
   reserveFaceUrls = [
+                    "/images/face-1.png",
                      "/images/face-2.png",
                      "/images/face-3.png",
                      "/images/face-4.png",
@@ -16,7 +17,7 @@ export default class Colleague extends React.Component {
         <div className="colleague-block" >
           <div className="image-block">
             <img className="colleague-image" src={this.props.source} alt={this.props.name} />
-            <img className="colleague-image-sw" src={this.reserveFaceUrls[Math.floor(Math.random()*5)]} />
+            <img className="colleague-image-sw" src={this.reserveFaceUrls[Math.floor(Math.random()*6)]} />
           </div>
           <p className="colleague-name">{this.props.name}</p>
           <p className="colleague-title">{this.props.title}</p>

@@ -1,69 +1,59 @@
-.hero {
-  background-image: linear-gradient(to right, rgba(255,255,255,0), rgba(255,255,255,0.5)), url("/images/standing-office.jpg");
-  height: 500px;
-  background-position: top;
+.careerPageContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom left, #FFFFFF, #5F9FDD);
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+.heroImage {
+  position: relative;
+  width: auto;
+  margin: 0;
   background-size: cover;
+  background-position: center top;
+}
+
+.heroImage img{
+  width: 100%;
 }
 
 .hero-text {
-  width: 80%;
-  padding: 100px;
-  text-align: left;
+position: absolute;
+top: 35%;
+left: 15%;
+color: #F9F5F2;
+font-size: 200%;
 }
 
-.hero-text h1 {
-  display: inline;
-  font-size: 55px;
-  padding: 10px;
+.hero-text p{
+  color: #F9F5F2;
+  border: solid 3px #F9F5F2;
+  padding: 1% 0% 1% 2%;
 }
 
-.hero button {
-  width: 250px;
-  border: 2px solid rgba(204,0,153,0.9);
-  border-radius: 10px;
-  padding: 10px 10px;
-  font-size: 20px;
-  background-color: rgba(255,255,255,0.5);
-  color: black;
-  margin-top: 50px;
-  display: block;
+.intro-container {
+z-index: 2;
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+width: 80%;
+margin: 30px auto 50px;
 }
 
-.hero button:hover {
-  background-color: rgba(204,0,153,0.65);
-  color: white;
-  font-weight: 300;
-  border: none;
+
+.job-opening-container {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
-.body-text {
-  width: 60%;
-  margin: 50px auto;
-}
-
-.image-block {
-  width: 85%;
-  margin: 0 auto;
-  height: auto;
-  text-align: center;
-}
-
-.image-block h2 {
-  text-align: left;
-  padding-left: 50px;
-}
-
-.image-cropping-box {
-  height: 0;
-  padding-bottom: 22%;
-  width: 22%;
-  margin: 5px;
-  overflow: hidden;
-  display: inline-block;
-}
-
-.image-cropping-box img {
-  width: 100%;
+.intro-text {
+  padding: 0 40px;
 }
 
 
