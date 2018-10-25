@@ -1,8 +1,7 @@
 import React from "react"
 import { BrowserRouter as Router, Route, Link } from "react-router-dom"
-import Button from "../../components/button/button"
 import JobItem from "../../components/jobitem/jobitem"
-import  "./jobopenings-list.css"
+import "./jobopenings-list.css"
 
 export default class JobOpeningsList extends React.Component {
 
@@ -28,7 +27,7 @@ export default class JobOpeningsList extends React.Component {
     }).then((json) => {
       this.allDepartments = json
       let depts = {}
-      this.allDepartments.forEach((item) =>{
+      this.allDepartments.forEach((item) => {
         depts[item.id] = item.name
       })
       const updatedList = this.allJobListings.map((job) => {
@@ -117,7 +116,7 @@ export default class JobOpeningsList extends React.Component {
         </div>
         )
       } else {
-      return <div>Loading loading loading forever...</div>
+      return <div>Loading...</div>
     }
   }
 }

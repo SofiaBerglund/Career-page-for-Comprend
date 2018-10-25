@@ -1,4 +1,4 @@
-.jobOpPageContainer{
+.jobOpPageContainer {
   width: 100%;
   height: 100%;
   background-image: url("/images/sanddune.svg"), linear-gradient(to bottom left, #FAD96188, #F76B1C88);
@@ -8,14 +8,14 @@
   background-position: center top;
 }
 
-.tableofPositions{
+.tableofPositions {
   z-index: 2;
   margin: 0 auto;
   padding-bottom: 20px;
   width: 80%;
 }
 
-.starWarsJobs{
+.starWarsJobs {
   width: 350px;
   padding: 8% 15% 4% 10%;
 }

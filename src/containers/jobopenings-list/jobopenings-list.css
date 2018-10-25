@@ -1,4 +1,4 @@
-.jobOpeningsList table{
+.jobOpeningsList table {
   width: 100%;
   color: #2F323B;;
   padding-left: 5%;
@@ -12,7 +12,7 @@
   background-color: rgba(249, 245, 242, 0.4);
 }
 
-a:-webkit-any-link{
+a:-webkit-any-link {
   text-decoration: none;
   color: #2F323B;
   marggin: 20px;
@@ -26,7 +26,7 @@ select {
   background-color: #e3e3e3;
 }
 
-.filter-buttons select{
+.filter-buttons select {
   background-color: #979797;
   color: #F9F5F2;
   border: none;

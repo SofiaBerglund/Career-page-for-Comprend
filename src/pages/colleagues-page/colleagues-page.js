@@ -12,9 +12,9 @@ class ColleaguesPage extends React.Component {
     fetch("http://hellotechnigo.comprendwebsites.net/api/users").then((response) => {
       return response.json()
     }).then((json) => {
-          this.setState({
-            allColleagues: json
-            })
+        this.setState({
+          allColleagues: json
+          })
         })
       }
 
@@ -25,10 +25,10 @@ class ColleaguesPage extends React.Component {
         <h1>Meet Our People</h1>
           <div className="colleagues-container">
           {this.state.allColleagues.map((person) => {
-             if (person.visible) {
-               return <Colleague source={person.pictureUrl}
-                   name={person.name}
-                   title={person.title} />
+            if (person.visible) {
+              return <Colleague source={person.pictureUrl}
+                name={person.name}
+                title={person.title} />
                }
            })}
           </div>

@@ -24,7 +24,7 @@ export default class Header extends React.Component {
             </ul>
           </div>
           <div className="header-hamburger">
-            <i class="fas fa-bars fa-2x"></i>
+            <i className="fas fa-bars fa-2x"></i>
           </div>
         </header>
       )

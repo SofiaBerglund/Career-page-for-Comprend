@@ -17,7 +17,7 @@
   background-position: center top;
 }
 
-.heroImage img{
+.heroImage img {
   width: 100%;
 }
 
@@ -29,7 +29,7 @@ color: #F9F5F2;
 font-size: 200%;
 }
 
-.hero-text p{
+.hero-text p {
   color: #F9F5F2;
   border: solid 3px #F9F5F2;
   padding: 1% 0% 1% 2%;
@@ -63,18 +63,18 @@ align-items: center;
   text-align: center;
   }
 
-  .hero-text img{
+  .hero-text img {
     width: 60%;
     padding-top: 0;
   }
 
-  .hero-text p{
+  .hero-text p {
     margin-top: 0;
     font-size: 50%;
     width: 60%;
   }
 
-  .hero-text{
+  .hero-text {
     top: 25%;
   }
 

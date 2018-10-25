@@ -2,8 +2,6 @@ import React from "react"
 import { Link } from "react-router-dom"
 import Button from "../../components/button/button"
 import Colleague from "../../components/colleague/colleague"
-import Header from "../../components/header/header"
-import Footer from "../../components/footer/footer"
 import "./jobdetails-info.css"
 
 export default class JobDetailsInfo extends React.Component {
@@ -47,13 +45,13 @@ export default class JobDetailsInfo extends React.Component {
       }
 
       return (
-        <div className="jobDetailInfo">
+        <div>
           <div className="topText">
             <h1>{this.state.allJobListings.title}</h1>
             <p>{this.state.allJobListings.intro}</p>
           </div>
           <div className="top-image-box">
-            <img src="https://www.comprend.com/files/pages/169/594257/dt/Home_02-ws-1920x800.jpg" alt="Comprend image" />
+            <img src="https://www.comprend.com/files/pages/169/594257/dt/Home_02-ws-1920x800.jpg" alt="comprend interior" />
           </div>
           <div className="button-group">
             <Button
