@@ -1,7 +1,8 @@
 .jobOpPageContainer {
   width: 100%;
   height: 100%;
-  background-image: url("/images/sanddune.svg"), linear-gradient(to bottom left, #FAD96188, #F76B1C88);
+  background-image: url("/images/sanddune.svg"),
+    linear-gradient(to bottom left, #fad96188, #f76b1c88);
   background-repeat: no-repeat;
   z-index: 0;
   background-size: cover;
@@ -20,7 +21,7 @@
   padding: 8% 15% 4% 10%;
 }
 @media (max-width: 600px) {
-  .starWarsJobs{
+  .starWarsJobs {
     width: 75%;
     padding: 10% 15% 10% 10%;
   }
@@ -28,5 +29,4 @@
   .starWarsJobs img {
     width: 100%;
   }
-
 }

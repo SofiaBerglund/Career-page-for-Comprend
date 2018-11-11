@@ -4,14 +4,13 @@
 }
 
 .jobContainer table {
-
-   table-layout: fixed;
+  table-layout: fixed;
 }
 
 /* .jobContainer table{
   align: left;
 } */
 
-.jobContainer table tr td{
-    /* align: left; */
+.jobContainer table tr td {
+  /* align: left; */
 }

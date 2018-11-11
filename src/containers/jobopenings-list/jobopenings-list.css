@@ -1,6 +1,6 @@
 .jobOpeningsList table {
   width: 100%;
-  color: #2F323B;;
+  color: #2f323b;
   padding-left: 5%;
 }
 
@@ -8,13 +8,13 @@
   border-top: #979797 2px solid;
   border-right: #979797 2px solid;
   border-left: #979797 2px solid;
-  background: #F9F5F2;
+  background: #f9f5f2;
   background-color: rgba(249, 245, 242, 0.4);
 }
 
 a:-webkit-any-link {
   text-decoration: none;
-  color: #2F323B;
+  color: #2f323b;
   marggin: 20px;
 }
 
@@ -28,6 +28,6 @@ select {
 
 .filter-buttons select {
   background-color: #979797;
-  color: #F9F5F2;
+  color: #f9f5f2;
   border: none;
 }

@@ -1,7 +1,8 @@
 .colleaguesPageContainer {
   width: 100%;
   height: 100%;
-  background-image: url("/images/space.svg"), linear-gradient(to bottom left, #AF639E95, #000000 );
+  background-image: url("/images/space.svg"),
+    linear-gradient(to bottom left, #af639e95, #000000);
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -14,10 +15,9 @@
   flex-flow: row wrap;
   padding: 30px;
   justify-content: center;
-  color: #F9F5F2;
+  color: #f9f5f2;
   margin-bottom: 5px;
 }
-
 
 @media (max-width: 600px) {
   .colleagues-container {

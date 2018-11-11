@@ -14,12 +14,12 @@ class App extends React.Component {
     return (
       <Router>
         <div>
-        <Header />
-         <Route path="/" exact component={CareerPage} />
-         <Route path="/jobs" exact component={JobOpeningsPage} />
-         <Route path="/jobs/:id" component={JobDetailsPage} />
-         <Route path="/colleagues" component={ColleaguesPage} />
-         <Footer />
+          <Header />
+          <Route path="/" exact component={CareerPage} />
+          <Route path="/jobs" exact component={JobOpeningsPage} />
+          <Route path="/jobs/:id" component={JobDetailsPage} />
+          <Route path="/colleagues" component={ColleaguesPage} />
+          <Footer />
         </div>
       </Router>
     )

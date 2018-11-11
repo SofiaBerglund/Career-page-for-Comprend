@@ -3,15 +3,11 @@ import "./footer.css"
 // import JobListItems from "./job-list-items"
 
 export default class Footer extends React.Component {
-
-
   render() {
-
     return (
       <footer>
-
         <div className="footer-logo">
-          <img src="/images/logo.png"/>
+          <img src="/images/logo.png" />
         </div>
         <div className="footer-navbar">
           <ul>
@@ -47,7 +43,6 @@ export default class Footer extends React.Component {
           </div>
         </div>
         <p>Comprend is part H&H Group</p>
-
       </footer>
     )
   }

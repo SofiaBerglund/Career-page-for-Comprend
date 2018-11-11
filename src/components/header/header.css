@@ -3,7 +3,7 @@ header {
   align-items: center;
   flex-direction: row;
   justify-content: space-between;
-  background-color: #2F323B;
+  background-color: #2f323b;
   padding-bottom: 0;
   height: 142px;
   z-index: 5;
@@ -14,12 +14,12 @@ header {
   flex-flow: row wrap;
   justify-content: space-between;
   list-style-type: none;
-  color: #F9F5F2;
+  color: #f9f5f2;
   width: auto;
   padding: 0;
 }
 
-.header-navbar li{
+.header-navbar li {
   padding: 20px;
 }
 
@@ -27,11 +27,11 @@ header {
   display: none;
 }
 
-.logo{
+.logo {
   padding-left: 5%;
 }
 
-.logo img{
+.logo img {
   height: 31px;
   width: auto;
 }
@@ -42,8 +42,7 @@ header {
   }
   .header-hamburger {
     display: block;
-    color: #F9F5F2;
+    color: #f9f5f2;
     padding-right: 20px;
   }
-
 }

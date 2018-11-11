@@ -1,16 +1,16 @@
 button {
   padding: 10px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   font-size: 15px;
   cursor: pointer;
   margin: 20px;
   width: 200px;
   background-color: #979797;
-  color: #F9F5F2;
+  color: #f9f5f2;
   border: none;
 }
 
 button:hover {
-  background-color: #2F323B;
-  color: #F9F5F2;
+  background-color: #2f323b;
+  color: #f9f5f2;
 }
